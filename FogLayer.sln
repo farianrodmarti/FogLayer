@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer", "FogLayer.csproj", "{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.Domain", "..\FogLayer.Domain\FogLayer.Domain.csproj", "{62A5AADE-1145-4392-A67B-4F4DFF236E73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A5AADE-1145-4392-A67B-4F4DFF236E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A5AADE-1145-4392-A67B-4F4DFF236E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A5AADE-1145-4392-A67B-4F4DFF236E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A5AADE-1145-4392-A67B-4F4DFF236E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
