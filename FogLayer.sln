@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer", "FogLayer.csproj", "{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64A3B2C-5D57-4DA5-AF96-E2F4DAD75E55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77554CE0-0459-4B1A-AA77-74A7A5BE5D9C}
+	EndGlobalSection
+EndGlobal
