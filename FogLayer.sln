@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer", "FogLayer.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer.Domain", "..\FogLayer.Domain\FogLayer.Domain.csproj", "{62A5AADE-1145-4392-A67B-4F4DFF236E73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.DataAccess", "..\FogLayer.DataAccess\FogLayer.DataAccess.csproj", "{A3EE5273-CCE6-4F9F-B56E-69FAAC9DD5A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer.DataAccess", "..\FogLayer.DataAccess\FogLayer.DataAccess.csproj", "{A3EE5273-CCE6-4F9F-B56E-69FAAC9DD5A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.Contracts", "..\FogLayer.Contracts\FogLayer.Contracts.csproj", "{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A3EE5273-CCE6-4F9F-B56E-69FAAC9DD5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EE5273-CCE6-4F9F-B56E-69FAAC9DD5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3EE5273-CCE6-4F9F-B56E-69FAAC9DD5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
