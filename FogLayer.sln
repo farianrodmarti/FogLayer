@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer.Domain", "..\FogLa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer.DataAccess", "..\FogLayer.DataAccess\FogLayer.DataAccess.csproj", "{A3EE5273-CCE6-4F9F-B56E-69FAAC9DD5A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.Contracts", "..\FogLayer.Contracts\FogLayer.Contracts.csproj", "{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer.Contracts", "..\FogLayer.Contracts\FogLayer.Contracts.csproj", "{1FCCFBD1-21E5-4BB2-B80D-604DC263A2C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.DataAccess.Tests", "..\FogLayer.DataAccess.Tests\FogLayer.DataAccess.Tests.csproj", "{2A177B61-CE82-4E21-B7F8-2824BE9AFC5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FogLayer.DataAccess.Tests", "..\FogLayer.DataAccess.Tests\FogLayer.DataAccess.Tests.csproj", "{2A177B61-CE82-4E21-B7F8-2824BE9AFC5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.Services", "..\FogLayer.Services\FogLayer.Services.csproj", "{ABDFD8F0-191A-4B86-A357-5125CB31C202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FogLayer.GrpcProtos", "..\FogLayer.GrpcProtos\FogLayer.GrpcProtos.csproj", "{CC6F64FF-7962-4782-877B-7A3F87BC1A47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{2A177B61-CE82-4E21-B7F8-2824BE9AFC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A177B61-CE82-4E21-B7F8-2824BE9AFC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A177B61-CE82-4E21-B7F8-2824BE9AFC5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDFD8F0-191A-4B86-A357-5125CB31C202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDFD8F0-191A-4B86-A357-5125CB31C202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDFD8F0-191A-4B86-A357-5125CB31C202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDFD8F0-191A-4B86-A357-5125CB31C202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC6F64FF-7962-4782-877B-7A3F87BC1A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC6F64FF-7962-4782-877B-7A3F87BC1A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC6F64FF-7962-4782-877B-7A3F87BC1A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC6F64FF-7962-4782-877B-7A3F87BC1A47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
